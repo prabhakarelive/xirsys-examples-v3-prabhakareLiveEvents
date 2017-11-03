@@ -1,0 +1,18 @@
+{
+  "xirsys": {
+    "gateway": "us.xirsys.com",
+    "info": {
+      "ident": "prabhakareLiveEvents",
+      "secret": "086ecec0-bb0f-11e7-b4c9-d1ea65bd8877",
+      "channel": "eLive",
+      "secure": "true"
+    },
+    "allowedServices": ["/_token", "/_host", "/_data", "/_ns", "/_turn"],
+    // allow client side request to override server-side defined channel
+    "overrideAllowedChannel": false
+  },
+  "host":{
+    "httpport": 3080,
+    "httpsport": 3443
+  }
+}
